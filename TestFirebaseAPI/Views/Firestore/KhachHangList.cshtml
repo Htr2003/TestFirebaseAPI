@@ -1,0 +1,22 @@
+﻿@model List<TestFirebaseAPI.Models.KhachHang>
+
+<h2>List of Customers</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>DOB</th>
+            <!-- Add other column headers as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var khachHang in Model)
+        {
+            <tr>
+                <td>@khachHang.name</td>
+                <td>@khachHang.dob.ToDateTime()</td>
+            </tr>
+        }
+    </tbody>
+</table>

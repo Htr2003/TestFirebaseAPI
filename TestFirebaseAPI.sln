@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFirebaseAPI", "TestFirebaseAPI\TestFirebaseAPI.csproj", "{6547875B-8859-4562-AA86-15AEA4C1823B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6547875B-8859-4562-AA86-15AEA4C1823B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6547875B-8859-4562-AA86-15AEA4C1823B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6547875B-8859-4562-AA86-15AEA4C1823B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6547875B-8859-4562-AA86-15AEA4C1823B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {208A740A-7471-42F8-B664-7636A57D446F}
+	EndGlobalSection
+EndGlobal
